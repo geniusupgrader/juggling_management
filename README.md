@@ -1,0 +1,7 @@
+## Jugglingtricktable
+
+a
+
+#### License
+
+MIT

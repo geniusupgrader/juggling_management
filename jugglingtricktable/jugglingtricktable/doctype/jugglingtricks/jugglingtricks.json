@@ -1,0 +1,130 @@
+{
+ "allow_events_in_timeline": 1,
+ "autoname": "format:trick-{#####}",
+ "creation": "2019-09-08 12:10:26.835811",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "prop",
+  "amount",
+  "siteswap",
+  "categoryname",
+  "kompetenzlevel",
+  "fange",
+  "notes",
+  "section_break_6",
+  "image",
+  "preview",
+  "video"
+ ],
+ "fields": [
+  {
+   "bold": 1,
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "prop",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Prop",
+   "options": "Props"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Amount"
+  },
+  {
+   "fieldname": "siteswap",
+   "fieldtype": "Data",
+   "label": "Siteswap"
+  },
+  {
+   "fieldname": "kompetenzlevel",
+   "fieldtype": "Select",
+   "label": "Kompetenzlevel",
+   "options": "\nFlash\nQualify\nDouble Qualify\nRun"
+  },
+  {
+   "fieldname": "fange",
+   "fieldtype": "Int",
+   "label": "F\u00e4nge"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Markdown Editor",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "preview",
+   "fieldtype": "Image",
+   "label": "Preview",
+   "options": "image"
+  },
+  {
+   "fieldname": "video",
+   "fieldtype": "Attach",
+   "label": "Video"
+  },
+  {
+   "fieldname": "categoryname",
+   "fieldtype": "Table MultiSelect",
+   "label": "Category",
+   "options": "Categorylink"
+  }
+ ],
+ "modified": "2019-12-02 20:37:47.754075",
+ "modified_by": "robin.rosenstock@t-online.de",
+ "module": "Jugglingtricktable",
+ "name": "Jugglingtricks",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Juggler",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "name1",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include jugglingtricktable *.css
+recursive-include jugglingtricktable *.csv
+recursive-include jugglingtricktable *.html
+recursive-include jugglingtricktable *.ico
+recursive-include jugglingtricktable *.js
+recursive-include jugglingtricktable *.json
+recursive-include jugglingtricktable *.md
+recursive-include jugglingtricktable *.png
+recursive-include jugglingtricktable *.py
+recursive-include jugglingtricktable *.svg
+recursive-include jugglingtricktable *.txt
+recursive-exclude jugglingtricktable *.pyc
