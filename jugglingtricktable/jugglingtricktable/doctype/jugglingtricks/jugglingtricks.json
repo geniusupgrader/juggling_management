@@ -1,5 +1,6 @@
 {
  "allow_events_in_timeline": 1,
+ "allow_import": 1,
  "autoname": "format:trick-{#####}",
  "creation": "2019-09-08 12:10:26.835811",
  "doctype": "DocType",
@@ -89,8 +90,8 @@
    "options": "Categorylink"
   }
  ],
- "modified": "2019-12-02 20:37:47.754075",
- "modified_by": "robin.rosenstock@t-online.de",
+ "modified": "2020-04-07 18:58:10.241364",
+ "modified_by": "Administrator",
  "module": "Jugglingtricktable",
  "name": "Jugglingtricks",
  "owner": "Administrator",
