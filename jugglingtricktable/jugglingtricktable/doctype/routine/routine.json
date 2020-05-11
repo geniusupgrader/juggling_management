@@ -7,7 +7,8 @@
  "engine": "InnoDB",
  "field_order": [
   "name1",
-  "tricks"
+  "tricks",
+  "notes"
  ],
  "fields": [
   {
@@ -22,11 +23,16 @@
    "columns": 2,
    "fieldname": "tricks",
    "fieldtype": "Table",
-   "label": "Reihenfolgetricks",
+   "label": "Jugglingtricks",
    "options": "Link_jugglingtrick"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text Editor",
+   "label": "Notes"
   }
  ],
- "modified": "2020-05-11 11:47:54.070968",
+ "modified": "2020-05-11 12:09:46.696922",
  "modified_by": "Administrator",
  "module": "Jugglingtricktable",
  "name": "Routine",
