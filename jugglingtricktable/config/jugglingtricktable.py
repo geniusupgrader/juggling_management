@@ -9,14 +9,14 @@ def get_data():
         "items": [
                                    {
               "type": "doctype",
-              "name": "Jugglingtricks",
-              "label": _("Jugglingtricks"),
+              "name": "Jugglingtrick",
+              "label": _("Jugglingtrick"),
               "description": _("Description of Jugglingtricks"),
             },
                     {
               "type": "doctype",
-              "name": "Lists",
-              "label": _("Lists"),
+              "name": "Routine",
+              "label": _("Routine"),
               "description": _("Description of Lists"),
             },
                                    {
@@ -27,8 +27,8 @@ def get_data():
             },
                                    {
               "type": "doctype",
-              "name": "Props",
-              "label": _("Props"),
+              "name": "Prop",
+              "label": _("Prop"),
               "description": _("Description of Props"),
             }
         ]

@@ -1,7 +1,8 @@
-## Jugglingtricktable
+# Jugglingtricktable
 
-a
+Managing juggling tricks
+This is a frappe app.
 
-#### License
+### License
 
 MIT
