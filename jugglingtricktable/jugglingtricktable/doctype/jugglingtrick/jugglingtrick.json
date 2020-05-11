@@ -34,7 +34,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Prop",
-   "options": "Props"
+   "options": "Prop"
   },
   {
    "fieldname": "amount",
@@ -87,13 +87,13 @@
    "fieldname": "categoryname",
    "fieldtype": "Table MultiSelect",
    "label": "Category",
-   "options": "Categorylink"
+   "options": "Link_category"
   }
  ],
- "modified": "2020-04-07 18:58:10.241364",
+ "modified": "2020-05-11 11:50:57.829992",
  "modified_by": "Administrator",
  "module": "Jugglingtricktable",
- "name": "Jugglingtricks",
+ "name": "Jugglingtrick",
  "owner": "Administrator",
  "permissions": [
   {

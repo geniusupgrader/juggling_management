@@ -4,30 +4,38 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "id",
   "name1",
-  "nam2"
+  "note"
  ],
  "fields": [
   {
+   "bold": 1,
+   "columns": 2,
    "fieldname": "name1",
-   "fieldtype": "Link",
+   "fieldtype": "Data",
    "in_list_view": 1,
    "label": "name",
-   "options": "Jugglingtricks",
+   "unique": 1
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "ID",
+   "options": "Jugglingtrick",
    "reqd": 1,
    "unique": 1
   },
   {
-   "bold": 1,
-   "columns": 2,
-   "fieldname": "nam2",
+   "fieldname": "note",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "eigentlicher Name"
+   "label": "Notes"
   }
  ],
  "istable": 1,
- "modified": "2019-11-30 17:18:51.980765",
+ "modified": "2020-05-11 11:49:07.593771",
  "modified_by": "Administrator",
  "module": "Jugglingtricktable",
  "name": "Link_jugglingtrick",
