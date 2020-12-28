@@ -15,12 +15,12 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/Juggling_management/css/Juggling_management.css"
-# app_include_js = "/assets/Juggling_management/js/Juggling_management.js"
+# app_include_css = "/assets/juggling_management/css/juggling_management.css"
+# app_include_js = "/assets/juggling_management/js/juggling_management.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/Juggling_management/css/Juggling_management.css"
-# web_include_js = "/assets/Juggling_management/js/Juggling_management.js"
+# web_include_css = "/assets/juggling_management/css/juggling_management.css"
+# web_include_js = "/assets/juggling_management/js/juggling_management.js"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
@@ -43,7 +43,7 @@ app_license = "MIT"
 # }
 
 # Website user home page (by function)
-# get_website_user_home_page = "Juggling_management.utils.get_home_page"
+# get_website_user_home_page = "juggling_management.utils.get_home_page"
 
 # Generators
 # ----------
@@ -54,14 +54,14 @@ app_license = "MIT"
 # Installation
 # ------------
 
-# before_install = "Juggling_management.install.before_install"
-# after_install = "Juggling_management.install.after_install"
+# before_install = "juggling_management.install.before_install"
+# after_install = "juggling_management.install.after_install"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "Juggling_management.notifications.get_notification_config"
+# notification_config = "juggling_management.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -92,31 +92,31 @@ app_license = "MIT"
 
 # scheduler_events = {
 # 	"all": [
-# 		"Juggling_management.tasks.all"
+# 		"juggling_management.tasks.all"
 # 	],
 # 	"daily": [
-# 		"Juggling_management.tasks.daily"
+# 		"juggling_management.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"Juggling_management.tasks.hourly"
+# 		"juggling_management.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"Juggling_management.tasks.weekly"
+# 		"juggling_management.tasks.weekly"
 # 	]
 # 	"monthly": [
-# 		"Juggling_management.tasks.monthly"
+# 		"juggling_management.tasks.monthly"
 # 	]
 # }
 
 # Testing
 # -------
 
-# before_tests = "Juggling_management.install.before_tests"
+# before_tests = "juggling_management.install.before_tests"
 
 # Overriding Whitelisted Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "Juggling_management.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "juggling_management.event.get_events"
 # }
 

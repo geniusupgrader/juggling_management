@@ -37,7 +37,7 @@
  "istable": 1,
  "modified": "2020-05-11 11:49:07.593771",
  "modified_by": "Administrator",
- "module": "Juggling_management",
+ "module": "juggling_management",
  "name": "Link_jugglingtrick",
  "owner": "Administrator",
  "permissions": [],

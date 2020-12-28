@@ -92,7 +92,7 @@
  ],
  "modified": "2020-05-11 11:50:57.829992",
  "modified_by": "Administrator",
- "module": "Juggling_management",
+ "module": "juggling_management",
  "name": "Jugglingtrick",
  "owner": "Administrator",
  "permissions": [
