@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 from Juggling_management import __version__ as version
 
 setup(
-	name='Juggling_management',
+	name='juggling_management',
 	version=version,
 	description='a',
 	author='Robin',
