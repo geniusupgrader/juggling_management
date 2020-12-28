@@ -4,6 +4,7 @@
  "autoname": "format:trick-{#####}",
  "creation": "2019-09-08 12:10:26.835811",
  "doctype": "DocType",
+ "document_type": "Document",
  "engine": "InnoDB",
  "field_order": [
   "name1",
@@ -90,8 +91,8 @@
    "options": "Link_category_juggling_management"
   }
  ],
- "modified": "2020-12-28 11:24:34.604571",
- "modified_by": "Administrator",
+ "modified": "2020-12-28 12:34:59.232306",
+ "modified_by": "email@robinrosenstock.com",
  "module": "Juggling Management",
  "name": "Jugglingtrick_juggling_management",
  "owner": "Administrator",

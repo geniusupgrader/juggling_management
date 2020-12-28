@@ -1,6 +1,7 @@
 {
  "creation": "2019-09-28 11:10:59.379727",
  "doctype": "DocType",
+ "document_type": "Document",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
@@ -17,8 +18,8 @@
   }
  ],
  "istable": 1,
- "modified": "2020-12-28 11:21:47.731719",
- "modified_by": "Administrator",
+ "modified": "2020-12-28 12:35:08.254381",
+ "modified_by": "email@robinrosenstock.com",
  "module": "Juggling Management",
  "name": "Link_category_juggling_management",
  "owner": "Administrator",

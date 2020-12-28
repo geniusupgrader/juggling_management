@@ -4,6 +4,7 @@
  "autoname": "field:name1",
  "creation": "2019-09-28 11:01:12.634616",
  "doctype": "DocType",
+ "document_type": "Document",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
@@ -20,9 +21,9 @@
    "unique": 1
   }
  ],
- "modified": "2020-04-07 18:59:29.674686",
- "modified_by": "Administrator",
- "module": "juggling_management",
+ "modified": "2020-12-28 12:35:35.914377",
+ "modified_by": "email@robinrosenstock.com",
+ "module": "Juggling Management",
  "name": "Category_juggling_management",
  "owner": "robin.rosenstock@t-online.de",
  "permissions": [
