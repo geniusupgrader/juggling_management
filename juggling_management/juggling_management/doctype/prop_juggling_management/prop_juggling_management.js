@@ -1,7 +1,7 @@
 // Copyright (c) 2019, Robin and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on('Jugglingtrick', {
+frappe.ui.form.on('Prop_juggling_management', {
 	// refresh: function(frm) {
 
 	// }

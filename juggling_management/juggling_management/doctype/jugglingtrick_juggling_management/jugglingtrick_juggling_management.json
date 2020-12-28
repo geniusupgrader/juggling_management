@@ -34,7 +34,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Prop",
-   "options": "Prop"
+   "options": "Prop_juggling_management"
   },
   {
    "fieldname": "amount",
@@ -87,13 +87,13 @@
    "fieldname": "categoryname",
    "fieldtype": "Table MultiSelect",
    "label": "Category",
-   "options": "Link_category"
+   "options": "Link_category_juggling_management"
   }
  ],
- "modified": "2020-05-11 11:50:57.829992",
+ "modified": "2020-12-28 11:24:34.604571",
  "modified_by": "Administrator",
- "module": "juggling_management",
- "name": "Jugglingtrick",
+ "module": "Juggling Management",
+ "name": "Jugglingtrick_juggling_management",
  "owner": "Administrator",
  "permissions": [
   {

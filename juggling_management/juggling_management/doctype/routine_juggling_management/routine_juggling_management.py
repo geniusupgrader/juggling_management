@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 # import frappe
 from frappe.model.document import Document
 
-class Link_category_juggling_management(Document):
+class Routine_juggling_management(Document):
 	pass

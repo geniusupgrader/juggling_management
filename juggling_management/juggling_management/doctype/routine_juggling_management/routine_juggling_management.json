@@ -1,28 +1,41 @@
 {
- "allow_events_in_timeline": 1,
- "allow_import": 1,
+ "allow_rename": 1,
  "autoname": "field:name1",
- "creation": "2019-09-08 12:24:28.879699",
+ "creation": "2019-09-08 09:37:06.435884",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "name1"
+  "name1",
+  "tricks",
+  "notes"
  ],
  "fields": [
   {
    "fieldname": "name1",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "name",
+   "label": "Name",
    "reqd": 1,
    "unique": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "tricks",
+   "fieldtype": "Table",
+   "label": "Jugglingtricks",
+   "options": "Link_jugglingtrick_juggling_management"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text Editor",
+   "label": "Notes"
   }
  ],
- "modified": "2020-04-07 18:59:42.027303",
+ "modified": "2020-12-28 11:18:02.248311",
  "modified_by": "Administrator",
- "module": "juggling_management",
- "name": "Prop",
+ "module": "Juggling Management",
+ "name": "Routine_juggling_management",
  "owner": "Administrator",
  "permissions": [
   {
@@ -50,10 +63,7 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "track_changes": 1,
- "track_seen": 1,
- "track_views": 1
+ "track_changes": 1
 }

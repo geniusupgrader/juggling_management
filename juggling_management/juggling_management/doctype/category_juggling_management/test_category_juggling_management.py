@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 # import frappe
 import unittest
 
-class TestProp(unittest.TestCase):
+class TestCategory_juggling_management(unittest.TestCase):
 	pass

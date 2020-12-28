@@ -9,25 +9,25 @@ def get_data():
         "items": [
                                    {
               "type": "doctype",
-              "name": "Jugglingtrick",
+              "name": "Jugglingtrick_juggling_management",
               "label": _("Jugglingtrick"),
               "description": _("Description of Jugglingtricks"),
             },
                     {
               "type": "doctype",
-              "name": "Routine",
+              "name": "Routine_juggling_management",
               "label": _("Routine"),
               "description": _("Description of Lists"),
             },
                                    {
               "type": "doctype",
-              "name": "Category",
+              "name": "Category_juggling_management",
               "label": _("Category"),
               "description": _("Description of Categories"),
             },
                                    {
               "type": "doctype",
-              "name": "Prop",
+              "name": "Prop_juggling_management",
               "label": _("Prop"),
               "description": _("Description of Props"),
             }
