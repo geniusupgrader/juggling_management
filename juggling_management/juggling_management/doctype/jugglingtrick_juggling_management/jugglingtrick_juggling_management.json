@@ -1,10 +1,11 @@
 {
  "allow_events_in_timeline": 1,
  "allow_import": 1,
+ "allow_rename": 1,
  "autoname": "format:trick-{#####}",
  "creation": "2019-09-08 12:10:26.835811",
  "doctype": "DocType",
- "document_type": "Document",
+ "document_type": "Setup",
  "engine": "InnoDB",
  "field_order": [
   "name1",
@@ -91,8 +92,9 @@
    "options": "Link_category_juggling_management"
   }
  ],
- "modified": "2020-12-28 12:34:59.232306",
- "modified_by": "email@robinrosenstock.com",
+ "icon": "fa fa-file-alt",
+ "modified": "2020-12-28 14:45:37.729673",
+ "modified_by": "Administrator",
  "module": "Juggling Management",
  "name": "Jugglingtrick_juggling_management",
  "owner": "Administrator",
@@ -123,6 +125,7 @@
   }
  ],
  "show_name_in_global_search": 1,
+ "show_preview_popup": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "title_field": "name1",
