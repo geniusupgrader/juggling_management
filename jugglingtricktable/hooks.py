@@ -2,8 +2,8 @@
 from __future__ import unicode_literals
 from . import __version__ as app_version
 
-app_name = "jugglingtricktable"
-app_title = "Jugglingtricktable"
+app_name = "Juggling_management"
+app_title = "Juggling_management"
 app_publisher = "Robin"
 app_description = "a"
 app_icon = "octicon octicon-file-directory"
@@ -15,12 +15,12 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/jugglingtricktable/css/jugglingtricktable.css"
-# app_include_js = "/assets/jugglingtricktable/js/jugglingtricktable.js"
+# app_include_css = "/assets/Juggling_management/css/Juggling_management.css"
+# app_include_js = "/assets/Juggling_management/js/Juggling_management.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/jugglingtricktable/css/jugglingtricktable.css"
-# web_include_js = "/assets/jugglingtricktable/js/jugglingtricktable.js"
+# web_include_css = "/assets/Juggling_management/css/Juggling_management.css"
+# web_include_js = "/assets/Juggling_management/js/Juggling_management.js"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
@@ -43,7 +43,7 @@ app_license = "MIT"
 # }
 
 # Website user home page (by function)
-# get_website_user_home_page = "jugglingtricktable.utils.get_home_page"
+# get_website_user_home_page = "Juggling_management.utils.get_home_page"
 
 # Generators
 # ----------
@@ -54,14 +54,14 @@ app_license = "MIT"
 # Installation
 # ------------
 
-# before_install = "jugglingtricktable.install.before_install"
-# after_install = "jugglingtricktable.install.after_install"
+# before_install = "Juggling_management.install.before_install"
+# after_install = "Juggling_management.install.after_install"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "jugglingtricktable.notifications.get_notification_config"
+# notification_config = "Juggling_management.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -92,31 +92,31 @@ app_license = "MIT"
 
 # scheduler_events = {
 # 	"all": [
-# 		"jugglingtricktable.tasks.all"
+# 		"Juggling_management.tasks.all"
 # 	],
 # 	"daily": [
-# 		"jugglingtricktable.tasks.daily"
+# 		"Juggling_management.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"jugglingtricktable.tasks.hourly"
+# 		"Juggling_management.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"jugglingtricktable.tasks.weekly"
+# 		"Juggling_management.tasks.weekly"
 # 	]
 # 	"monthly": [
-# 		"jugglingtricktable.tasks.monthly"
+# 		"Juggling_management.tasks.monthly"
 # 	]
 # }
 
 # Testing
 # -------
 
-# before_tests = "jugglingtricktable.install.before_tests"
+# before_tests = "Juggling_management.install.before_tests"
 
 # Overriding Whitelisted Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "jugglingtricktable.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "Juggling_management.event.get_events"
 # }
 

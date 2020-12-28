@@ -4,15 +4,15 @@ include *.json
 include *.md
 include *.py
 include *.txt
-recursive-include jugglingtricktable *.css
-recursive-include jugglingtricktable *.csv
-recursive-include jugglingtricktable *.html
-recursive-include jugglingtricktable *.ico
-recursive-include jugglingtricktable *.js
-recursive-include jugglingtricktable *.json
-recursive-include jugglingtricktable *.md
-recursive-include jugglingtricktable *.png
-recursive-include jugglingtricktable *.py
-recursive-include jugglingtricktable *.svg
-recursive-include jugglingtricktable *.txt
-recursive-exclude jugglingtricktable *.pyc
+recursive-include Juggling_management *.css
+recursive-include Juggling_management *.csv
+recursive-include Juggling_management *.html
+recursive-include Juggling_management *.ico
+recursive-include Juggling_management *.js
+recursive-include Juggling_management *.json
+recursive-include Juggling_management *.md
+recursive-include Juggling_management *.png
+recursive-include Juggling_management *.py
+recursive-include Juggling_management *.svg
+recursive-include Juggling_management *.txt
+recursive-exclude Juggling_management *.pyc

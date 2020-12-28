@@ -4,11 +4,11 @@ from setuptools import setup, find_packages
 with open('requirements.txt') as f:
 	install_requires = f.read().strip().split('\n')
 
-# get version from __version__ variable in jugglingtricktable/__init__.py
-from jugglingtricktable import __version__ as version
+# get version from __version__ variable in Juggling_management/__init__.py
+from Juggling_management import __version__ as version
 
 setup(
-	name='jugglingtricktable',
+	name='Juggling_management',
 	version=version,
 	description='a',
 	author='Robin',
