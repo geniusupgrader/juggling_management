@@ -4,7 +4,7 @@ from frappe import _
 def get_data():
     return [
       {
-        "label":_("juggling_management"),
+        "label":_("Juggling Management"),
         "icon": "octicon octicon-briefcase",
         "items": [
                                    {

@@ -5,10 +5,10 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "juggling_management",
+			"module_name": "Juggling Management",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
-			"label": _("juggling_management")
+			"label": _("Juggling Management")
 		}
 	]
